@@ -1,0 +1,9 @@
+<div class="chatbot-container">
+    <div class="chatbot-header">
+        Chatbot
+    </div>
+    <div class="chatbot-body" id="chatbot-body">
+        <p>Welcome! How can I assist you today?</p>
+    </div>
+    <input type="text" class="chatbot-input" id="user-input" placeholder="Type your message...">
+</div>

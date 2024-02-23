@@ -1,0 +1,8 @@
+{
+    "caches": [
+        {
+            "id": "embeddingFile",
+            "expireAfterSeconds": 1200
+        }
+    ]
+}
