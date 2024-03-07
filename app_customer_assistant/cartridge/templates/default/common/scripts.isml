@@ -1,0 +1,15 @@
+<script>//common/scripts.isml</script>
+<script defer type="text/javascript" src="${URLUtils.staticURL('/js/main.js')}"></script>
+<iscomment> faqprompt js included </iscomment>
+<script defer type="text/javascript" src="${URLUtils.staticURL('/js/faqPrompt.js')}"></script>
+<isloop items="${require('*/cartridge/scripts/assets.js').scripts}" var="script">
+    <isset name="integrityScript" value="${null}" scope="page" />
+    <isset name="integrityCrossOrigin" value="${null}" scope="page" />
+    <isif condition="${script.integrity != null}">
+        <isset name="integrityScript" value="${script.integrity}" scope="page" />
+        <isset name="integrityCrossOrigin" value="${'crossorigin=" anonymous"'}" scope="page" />
+    </isif>
+    <script defer type="text/javascript" src="${script.src}" integrity="${integrityScript}"
+        ${integrityCrossOrigin}
+    ></script>
+</isloop>

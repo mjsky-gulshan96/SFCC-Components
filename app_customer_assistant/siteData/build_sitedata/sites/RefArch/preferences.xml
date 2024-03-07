@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences xmlns="http://www.demandware.com/xml/impex/preferences/2007-03-31">
+    <standard-preferences>
+        <all-instances />
+        <development />
+        <staging />
+        <production />
+    </standard-preferences>
+    <custom-preferences>
+        <all-instances />
+        <development>
+            <preference preference-id="APITYPE">azure</preference>
+            <preference preference-id="APIVERSION">2023-12-01-preview</preference>
+            <preference preference-id="CHATDEPLOYMENT">GPT35Turbo</preference>
+            <preference preference-id="EMBEDDINGDEPLOYMENT">TextEmbeddingAda2</preference>
+            <preference preference-id="XPROJECT">sfcc</preference>
+            <preference preference-id="CHATMODEL">gpt-35-turbo</preference>
+            <preference preference-id="EMBEDDINGMODEL">text-embedding-ada-002</preference>
+        </development>
+        <staging />
+        <production />
+    </custom-preferences>
+</preferences>

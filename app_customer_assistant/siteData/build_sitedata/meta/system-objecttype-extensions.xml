@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
+    <type-extension type-id="SitePreferences">
+        <custom-attribute-definitions>
+            <attribute-definition attribute-id="APIKEY">
+                <display-name xml:lang="x-default"></display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="APIBASE">
+                <display-name xml:lang="x-default"></display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="APITYPE">
+                <display-name xml:lang="x-default"></display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="APIVERSION">
+                <display-name xml:lang="x-default"></display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="CHATDEPLOYMENT">
+                <display-name xml:lang="x-default"></display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="EMBEDDINGDEPLOYMENT">
+                <display-name xml:lang="x-default"></display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="XSERVICELINE">
+                <display-name xml:lang="x-default"></display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="XBRAND">
+                <display-name xml:lang="x-default"></display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="XPROJECT">
+                <display-name xml:lang="x-default"></display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="CHATMODEL">
+                <display-name xml:lang="x-default">CHATMODEL</display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="CHATMODEL">
+                <display-name xml:lang="x-default">EMBEDDINGMODEL</display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="faqContentID">
+                <display-name xml:lang="x-default"></display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+        </custom-attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="AZURE CREDENTIALS">
+                <display-name xml:lang="x-default">AZURE CREDENTIALS</display-name>
+                <attribute attribute-id="CHATMODEL" />
+                <attribute attribute-id="XPROJECT" />
+                <attribute attribute-id="XBRAND" />
+                <attribute attribute-id="XSERVICELINE" />
+                <attribute attribute-id="EMBEDDINGDEPLOYMENT" />
+                <attribute attribute-id="CHATDEPLOYMENT" />
+                <attribute attribute-id="APITYPE" />
+                <attribute attribute-id="APIBASE" />
+                <attribute attribute-id="APIKEY" />
+                <attribute attribute-id="APIVERSION" />
+                <attribute attribute-id="EMBEDDINGMODEL" />
+                <attribute attribute-id="faqContentID" />
+            </attribute-group>
+        </group-definitions>
+    </type-extension>
+</metadata>

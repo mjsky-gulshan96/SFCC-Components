@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31">
+    <folder folder-id="root">
+        <online-flag>true</online-flag>
+        <page-attributes />
+    </folder>
+    <content content-id="faqContent">
+        <display-name xml:lang="x-default">Faq content</display-name>
+        <display-name xml:lang="en">Faq content</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes />
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">Q. How can I cancel my
+                order?&#13;
+                A. You can cancel your order before it is shipped by logging in to your My Account
+                section. In case, you wish to cancel your order after it is shipped, please contact
+                our customer care number-9599227343 or through live chat or email with your order
+                details to our customer care email id- customercare.tbs@questretail.in to assist
+                you. In case of cancellation of prepaid orders, a refund of any amount paid will be
+                processed to the source of payment, within 7-10 business days as per our Exchange
+                Return policies.&#13;
+                &#13;
+                Q. Can i change my order online after i have put it through, to order a different
+                size?&#13;
+                A. Once the order is confirmed, then you cannot amend the order, however, please
+                contact our customer care number-9599227343 or through live chat or email with your
+                order details our customer care email id- customercare.tbs@questretail.in for
+                further assistance.&#13;
+                &#13;
+                Q. How do i make changes to my order?&#13;
+                A. Once the order is confirmed, then you cannot amend the order, however, please
+                contact our customer care number-9599227343 or through live chat or email with your
+                order details our customer care email id- customercare.tbs@questretail.in for
+                further assistance.&#13;
+                &#13;
+                Q. What Are The Available Payment Options? &#13;
+                A. The following payment methods are available for you to make payment: Cash on
+                Delivery (COD)/ Credit/Debit card/ Net Banking/ Unified Payment Interface (UPI)/
+                Wallet/ Gift Card. www.thebodyshop.in is set up to take immediate orders accepts
+                online through the payments via domestic credit cards issued by Banks and
+                Institutions that are part of Visa /Master card. It also accepts Visa / Mestro Debit
+                Cards issued by Indian Banks and Amex Cards or Net banking payment mode of selected
+                banks of India. For select banks in India – a full list is available at the time of
+                check out and prior to making the payment for purchase. You may also make payment
+                via Cash on Delivery (COD) at the time of the delivery of the product. However this
+                mode of payment facility is only available in selected region / area as specified by
+                the Body Shop India. Hence, based on your location and your choice of products, COD
+                option may or may not be available to you.&#13;
+                &#13;
+                Q. Are my credit or debit card details saved?&#13;
+                A. We have gone to great lengths to make your shopping experience safe and secure.
+                You can use your credit/debit cards without any worries; we have processes in place
+                to keep the customer data safe and secure.&#13;
+                &#13;
+                Q. Can i change my payment details once my order has been submitted?&#13;
+                A. Once the order is confirmed, then you cannot amend the order, however, please
+                contact our customer care number-9599227343 or through live chat or email with your
+                order details our customer care email id- customercare.tbs@questretail.in for
+                further assistance.&#13;
+                &#13;
+                Q. How can i change my password?&#13;
+                A. You can log in to your account at any time and amend your password. If you are on
+                mobile, head to the Settings tab by clicking on the menu icon on the top left-hand
+                corner of your screen. When the settings menu pops up, click on the Update Password
+                option. On the desktop, click the My Account icon on the top right-hand side of your
+                screen. Once signed in, click on the Settings tab and navigate to the Update
+                Password option. This is the page you need! You'll be prompted to enter your
+                existing password and choose a new password. Once you have chosen and entered your
+                new password, you will get a confirmation message and you are done!</custom-attribute>
+        </custom-attributes>
+    </content>
+    <content content-id="faqContent2">
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">Q.What if an item is out of
+                stock?&#13;A.Explain how you handle out-of-stock items, including whether customers
+                can backorder items or sign up to be notified when they are back in
+                stock.&#13;Q.What if I have a problem with my order?&#13;A.Encourage customers to
+                reach out to your customer support team if they encounter any issues with their
+                orders and assure them that you are committed to resolving any problems
+                promptly.&#13;Q.Do you ship internationally?&#13;A.Clarify whether you offer
+                international shipping and provide information on additional costs, customs duties,
+                and estimated delivery times for international orders.&#13;Q.Do you offer discounts
+                or promotions?&#13;A.Inform customers about any ongoing promotions, discounts for
+                first-time buyers, referral programs, or loyalty rewards they can take advantage
+                of.&#13;Q.What is your shipping policy?&#13;A.Explain your shipping rates, estimated
+                delivery times, and any specific shipping policies such as free shipping thresholds
+                or international shipping options.</custom-attribute>
+        </custom-attributes>
+        <folder-links>
+        </folder-links>
+    </content>
+
+</library>

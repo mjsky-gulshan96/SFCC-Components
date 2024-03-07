@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
+    <custom-type type-id="faqEmbeddingObj">
+        <display-name xml:lang="x-default">faq Embeddings</display-name>
+        <staging-mode>no-staging</staging-mode>
+        <storage-scope>site</storage-scope>
+        <retention-days>4</retention-days>
+        <key-definition attribute-id="faqEmbedding">
+            <type>string</type>
+            <min-length>0</min-length>
+        </key-definition>
+        <attribute-definitions>
+            <attribute-definition attribute-id="faqEmbeddingData">
+                <display-name xml:lang="x-default">faq Embedding Text Data</display-name>
+                <type>text</type>
+                <localizable-flag>false</localizable-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+            </attribute-definition>
+        </attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="FaqEmbdGroup">
+                <display-name xml:lang="x-default">Faq Embedding group</display-name>
+                <display-name xml:lang="en">Faq Embedding Group</display-name>
+                <attribute attribute-id="faqEmbeddingData"/>
+            </attribute-group>
+        </group-definitions>
+    </custom-type>
+
+</metadata>
